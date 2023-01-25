@@ -12,6 +12,9 @@ Copyright 2016 Eddie Antonio Santos. Licensed under Apache 2.0.
 
 Derived from Nick Zarczynski's blog post:
 https://pointlessprogramming.wordpress.com/2011/02/13/python-cgi-tutorial-1/
+
+Collaborator:
+Adam avahmed
 """
 
 
@@ -20,7 +23,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer, CGIHTTPRequestHandle
 Server = HTTPServer
 handler = CGIHTTPRequestHandler
 port = 8080
-server_address = ("", port)
+server_address = ("locoalhost", port)
 # Find CGI scripts in the current working directory.
 handler.cgi_directories = ["/"]
  
