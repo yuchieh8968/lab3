@@ -11,8 +11,6 @@ class FollowingTheTAsInstructionsError(Exception):
             "and to delete this error!"
         ))
 
-# Delete this line:
-raise FollowingTheTAsInstructionsError
 
 # Edit the following two lines:
 username = "username"
